@@ -92,9 +92,10 @@ body {
 }
 
 .menu-link:hover,
-.meni-link:focus {
+.menu-link:focus {
   color: var(--maincoloreff);
 }
+
 .menu-link.current {
   color: var(--maincoloreff);
 }
@@ -332,12 +333,13 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: transparent;
+  fill: var(--clientsbordercolor);
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-  fill: var(--maincolorwhite);
   background-color: var(--maincoloreff);
+  fill: var(--maincolorwhite);
 }
 
 /* CLIENTS STYLES */
@@ -374,6 +376,8 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid var(--clientsbordercolor);
+  border-radius: 4px;
+  fill: var(--clientsbordercolor);
 }
 
 .client-link:hover .icon-color,
@@ -477,7 +481,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: var(--socialfootercolor);
+  background-color: var(--socialfootercolor);
 }
 
 .socialfooter-list-link:hover,
@@ -542,6 +546,7 @@ body {
   flex-wrap: wrap;
   margin-top: 30px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .galery-box {

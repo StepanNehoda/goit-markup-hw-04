@@ -444,6 +444,7 @@ body {
 
 .footer-main {
   display: flex;
+  align-items: center;
 }
 
 .footer-main-left {
